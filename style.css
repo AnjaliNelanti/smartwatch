@@ -74,7 +74,7 @@
         float: left;
     
     }
-.leftPart
+.left
 {
 height: 100%;
 width: 50%;
@@ -83,14 +83,16 @@ top: 0;
 left: 0;
 text-align: center;
 background-color:violet;
-font-style: oblique;
+font-style:bold;
+vertical-align: middle;
+font-size: larger;
 }
-.rightPart
+.right
 {
 height: 100%;
 width: 50%;
 position: fixed;
-top: 0;
+top: 200;
 right: 0;
 text-align: left;
 }
