@@ -51,8 +51,11 @@
        text-align: left;
        color: teal;
        left:0;
-       float:left;
+       float:right;
+       width:0.31in;
+       height: 0.23in;
        bottom: 0;
+       position: relative;
        
     }
     #time
@@ -64,14 +67,22 @@
     {
         width: auto;
         padding: 0;
+        width:0.3in;
+        height: 0.23in;
+        left:0;
         color: tomato;
         float: left;
+        position: relative;
     }
     #myAudio
     {
         width: auto;
         padding: 0;
+        width:0.27in;
+        height: 0in;
+        left:0;
         float: left;
+        position: relative;
     
     }
 .left
@@ -96,14 +107,3 @@ top: 200;
 right: 0;
 text-align: left;
 }
-#stopwatch
-{
-    float: left;
-     width: auto;
-     padding: 0;
-    color: tomato;
-    
-        
-} 
-
-    
